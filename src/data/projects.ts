@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: "Diferensiasi SD negeri gedongan 1 karanganyar",
     description: "Membuat video pembelajaran yang menarik dan informatif dengan penggunaan efek visual yang tepat.",
     thumbnailUrl: sd,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=hT1iCGyi8pU",
     toolsUsed: ["CapCut", "Canva"]
   },
   {

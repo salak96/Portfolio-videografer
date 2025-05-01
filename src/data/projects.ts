@@ -1,5 +1,8 @@
 import { Project } from '../types';
 import wedding from "../assets/images/wedding.jpg";
+import sd from "../assets/images/sd.png";
+import cbr from "../assets/images/cbr.jpg";
+import stb from "../assets/images/STB .png";
 
 export const projects: Project[] = [
   {
@@ -26,28 +29,28 @@ export const projects: Project[] = [
     videoUrl: "https://youtu.be/FmgBFfZd60I",
     toolsUsed: ["CapCut", "VN"]
   },
-  // {
-  //   id: 4,
-  //   title: "Product Commercial",
-  //   description: "Sleek and modern product commercial with dynamic movement and sharp visual aesthetics that highlight product features.",
-  //   thumbnailUrl: "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  //   toolsUsed: ["CapCut", "Canva"]
-  // },
-  // {
-  //   id: 5,
-  //   title: "Music Video Edit",
-  //   description: "Rhythmic music video edit with beat-synchronized cuts and transitions that complement the song's energy and mood.",
-  //   thumbnailUrl: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  //   toolsUsed: ["VN"]
-  // },
-  // {
-  //   id: 6,
-  //   title: "Social Media Campaign",
-  //   description: "Series of short, engaging video edits optimized for social media platforms with attention-grabbing hooks and clear messaging.",
-  //   thumbnailUrl: "https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  //   toolsUsed: ["CapCut", "Canva", "VN"]
-  // }
+  {
+    id: 4,
+    title: "Diferensiasi SD negeri gedongan 1 karanganyar",
+    description: "Membuat video pembelajaran yang menarik dan informatif dengan penggunaan efek visual yang tepat.",
+    thumbnailUrl: sd,
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    toolsUsed: ["CapCut", "Canva"]
+  },
+  {
+    id: 5,
+    title: "PAWANG CARA TUTORIAL",
+    description: "Cara membuat video tutorial yang menarik dan informatif dengan penggunaan efek visual yang tepat.",
+    thumbnailUrl: stb,
+    videoUrl: "https://www.youtube.com/watch?v=wdEAe4iTcu8",
+    toolsUsed: ["CapCut", "Canva", "VN"]
+  },
+  {
+    id: 6,
+    title: "Podscast CAMP BEBAS RIBA",
+    description: "Membuat video podcast yang menarik dan informatif dengan penggunaan efek visual yang tepat.",
+    thumbnailUrl: cbr,
+    videoUrl: "https://www.youtube.com/watch?v=69Qaed2o064",
+    toolsUsed: ["CapCut", "Canva", "VN"]
+  }
 ];
